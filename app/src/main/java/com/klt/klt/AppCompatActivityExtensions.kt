@@ -8,5 +8,5 @@ import android.widget.Toast
  */
 
 fun AppCompatActivity.toast(text: String, duration: Int = Toast.LENGTH_SHORT) {
-    Toast.makeText(this, text, duration)
+    Toast.makeText(this, text, duration).show()
 }
